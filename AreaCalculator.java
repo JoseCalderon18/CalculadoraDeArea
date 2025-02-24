@@ -8,4 +8,9 @@ public class AreaCalculator {
     }
 
     // Añadir métodos para calcular el área de un rectángulo y un triángulo
+
+    // Estudiante A: Jose Calderón
+    public static double rectangleArea(double length, double width) {
+        return length * width;
+    }
 }
