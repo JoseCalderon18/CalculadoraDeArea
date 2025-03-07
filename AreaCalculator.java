@@ -1,6 +1,18 @@
 public class AreaCalculator {
     public static void main(String[] args) {
         System.out.println("Calculadora de área para diferentes figuras.");
+
+        double radius = 20.5;
+        System.out.println("El área del círculo con radio " + radius + " es: " + circleArea(radius));
+
+        double length = 10.8, width = 5.0;
+        System.out.println("El área del rectángulo con longitud " + length + " y ancho " + width + " es: "
+                + rectangleArea(length, width));
+
+        double base = 16.5, height = 8.2;
+        System.out.println("El área del triángulo con base " + base + " y altura " + height + " es: "
+                + triangleArea(base, height));
+
     }
 
     public static double circleArea(double radius) {
